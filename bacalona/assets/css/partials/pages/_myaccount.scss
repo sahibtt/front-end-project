@@ -1,0 +1,64 @@
+#login-register {
+    .col-xl-6 {
+        h4 {
+            padding: 0 0 20px 0;
+            border-bottom: 1px solid gray;
+        }
+        [for~=email] {
+            display: block;
+            padding: 25px 0 15px 0;
+        }
+        [for~=password] {
+            display: block;
+            padding: 25px 0 15px 0;
+        }
+        [type~=text] {
+            background: #f3f4f7;
+            border: none;
+            height: 40px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            &:focus {
+                outline: none;
+            }
+        }
+        [type~=email] {
+            background: #f3f4f7;
+            border: none;
+            height: 40px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            &:focus {
+                outline: none;
+            }
+        }
+        [type~=password] {
+            background: #f3f4f7;
+            border: none;
+            height: 40px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            &:focus {
+                outline: none;
+            }
+        }
+        .btn {
+            background-color: darkblue;
+            border: none;
+            display: block;
+        }
+        .lost-pass {
+            text-decoration: none;
+        }
+       
+        .policy-paragraph {
+            .policy {
+                color: red;
+            }
+            font-size: 14px;
+        }
+    }
+}

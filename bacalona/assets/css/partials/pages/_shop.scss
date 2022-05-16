@@ -1,0 +1,105 @@
+.page-links {
+    background-color: white !important;
+}
+#products-shop {
+    .prev-and-next {
+        text-align: center;
+        .page-number{
+            padding: 15px 20px;
+            background-color: blue;
+            border-radius: 50%;
+            color: white;
+        }
+        span {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        i {
+            cursor: pointer;
+        }
+    }
+    .col-xl-9 {
+        img {
+            width: 100%;
+        }
+        .card {
+            max-height: 360px;
+            &:hover {
+                box-shadow: 10px 5px 5px rgb(185, 185, 185);
+                border: 1px solid rgb(185, 185, 185);
+                z-index: 100;
+            }
+            &:hover .hidden-box {
+                visibility: visible !important;
+            }
+            .hidden-box {
+                visibility: hidden !important;
+                .btn {
+                    height: 35px;
+                    width: 205px;
+                    border-radius: 20px;
+                    text-align: center;
+                    background-color: darkblue;
+                    border: none;
+                }
+            }
+            img {
+                height: 100px;
+                width: 150px;
+            }
+           .onsale {
+            margin: 20px 0 0 20px;
+            background-color: #2BBEF9;
+            width: 45px;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+           }
+           .recommended {
+                margin: 5px 0 0 20px;
+                text-align: center;
+                background-color: #71778E;
+                color: white;
+                width: 125px;
+                border-radius: 20px;
+           }
+           .card-body {
+               .card-title {
+                   font-size: 17px;
+               }
+               .card-text {
+                   font-size: 14px;
+                   color: #3aff33;
+                   margin: 0;
+               }
+               .cross-out {
+                   display: inline-block;
+                   text-decoration: line-through;
+                   color: #C4C4D4;
+               }
+               .sale {
+                   color: red;
+               }
+           }
+        }
+    }
+    .sort-products {
+        background-color: #F7F8FD;
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+        i {
+            color: gray;
+            cursor: pointer;
+        }
+        .fa-grip-lines {
+            margin: 0 10px;
+        }
+        .btn {
+            width: 145px !important;
+            background-color: transparent;
+            border: none;
+            color: black;
+        }
+    }
+}

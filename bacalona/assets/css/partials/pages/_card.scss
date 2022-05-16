@@ -1,0 +1,13 @@
+.main-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    flex-direction: column;
+    .btn {
+        background-color: darkblue;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+    }
+}

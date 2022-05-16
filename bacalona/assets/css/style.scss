@@ -1,0 +1,13 @@
+@import "./partials/pages/home";
+@import "./partials/variables/variables";
+@import "./partials/pages/myaccount";
+@import "./partials/pages/contact";
+@import "./partials/pages/card";
+@import "./partials/pages/about";
+@import "./partials/pages/blog";
+@import "./partials/pages/product";
+@import "./partials/pages/shop";
+
+* {
+    font-family: $primary-font;
+}

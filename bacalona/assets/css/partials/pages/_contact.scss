@@ -1,0 +1,65 @@
+#get-in-touch {
+    .text {
+        text-align: center;
+    }
+    .card-box {
+        background-color: #f3f3f6;
+        width: 370px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 8px;
+    }
+}
+#send-mail {
+    .send-box {
+        height: 750px;
+        width: 100%;
+        margin-top: 50px;
+        padding-top: 80px;
+        
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 1px 1px 20px 1px #888888;
+        .text {
+            padding-bottom: 35px;
+            border-bottom: 1px solid gray;
+        }
+        form {
+            .label-name {
+                display: block;
+                margin-left: 65px;
+                text-align: start;
+            }
+            .label-name2 {
+                display: block;
+                margin-left: 65px;
+                padding-top: 50px;
+                text-align: start;
+            }
+            textarea {
+                height: 120px;
+                width: 80%;
+            }
+            .btn {
+                display: block;
+                background-color: darkblue;
+                border: none;
+                margin-left: 60px;
+            }
+        }
+        input,textarea {
+            background: #f3f4f7;
+            border: none;
+            height: 40px;
+            width: 80%;
+            padding: 10px;
+            border-radius: 10px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
